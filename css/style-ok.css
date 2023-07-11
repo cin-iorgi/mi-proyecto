@@ -1,5 +1,3 @@
-/*---------------------------SELECTOR: ETIQUETAS-----------------------------------------*/
-
 /*Font face*/
 @font-face {
     font-family: "lato-general";
@@ -7,167 +5,101 @@
     font-size: 150px;
 }
 
-/*Selector universal
-Font family
-color de fondo
-reinicio de margin y padding*/
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Lato', sans-serif;
-    background-color: rgb(247, 231, 247);
 }
 
 
-ul {
-    list-style-type: none;
-}
 
-list-item:first-child {
-    font-size: larger;
-}
-
-#encabezado {
-    display: flex;
-    flex-wrap: wrap;
-    display: flex;
-    border-bottom: 2px solid black;
-    justify-content: space-between;
-    align-items: right; 
-    padding-bottom: 1px;
-    padding-top: 10px;
-}
-
-.list {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: right;
-    justify-content: right;
-}
-
-logo {
-    display: flex;
-    justify-content: left;
-}
-
-
-.list-item {
-    display: flex;
-    margin: 20px;
-    padding-left: 100px;
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
+.navbar {
+    background-color: rgb(214, 200, 214);
     border-top: 2px solid black;
-    padding-top: 10px;
+    border-bottom: 2px solid black;
+    font-size: 19px;
 }
 
+
+.nav-link {
+    color: black;
+    margin: 20px;
+}
+
+
+.nav-link:hover {
+    font-weight: bold;
+    color: rgb(153, 22, 153);
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
 
 
 #header-one {
     text-align: center;
-    font-size: 30px;
-    font-weight: bolder;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.cards {
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    justify-content: center;
 }
 
-
-li:hover a {
-    font-weight: bolder;
-}
-
-
-.list-item:link {
-    text-decoration: underline;
-}
-
-
-
-#articulos {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    padding-top: 40px;
-    padding-bottom: 80px;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.articulo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;    
-}
-
-
-.articulo_img {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    border-style: dotted;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.articulo_title {
-    position: flex;
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
-    text-decoration: underline;
+.card {
+    border-radius: 100px;
+    border-color: rgb(153, 22, 153);
+    padding: 30px;
     margin: 20px;
-    display: flex;
+    padding: 5px;
 }
 
-.paragraph-one {
+.card-title {
     display: flex;
-    font-size: 20px;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.card-text {
+    display: flex;
+    margin: auto;
     text-align: center;
-    margin: 20px;
+    font-size: 20px;
 }
 
 
-button {
-    background-color: #8f228f;
-    padding: 0.2rem;
+.card-img-top {
+    height: 350px;
+    padding: 60px;
 }
 
 
-input::placeholder {
-    color: purple;
-    text-transform: capitalize;
+#header-two {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
 }
 
-
-/*MEDIA QUERY*/
-
-/*Small devices - landscape phones, 576 and up*/
-@media screen and (min-width: 320px) and (max-width: 576px) {
-
+.form {
+    font-size: 20px;
+    font-weight: bolder;
 }
 
-/*Medium devices - tablets, 577 and up*/
-@media screen and (min-width: 577px) {
+.form-item {
+    margin-top: 30px;
 }
 
-/*Large devices - tablets, 769px and up*/
-@media screen and (min-width: 769px) {
-}   
-
-/*X-Large devices - desktop, 993px and up*/
-@media screen and (min-width: 993) {
+.form-item input:focus{
+    box-shadow: 0 0 5px 5px rgb(214, 200, 214); 
 }
+
+.form-select input:focus{
+    box-shadow: 0 0 5px 5px rgb(214, 200, 214); 
+}
+
+.form-item input {
+    font-size: 20px;
+}
+
 
 
 input[type=number]::-webkit-outer-spin-button { 
@@ -175,20 +107,28 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-
-.articulo {
+.button-enviar {
     display: flex;
-}
-
-.card-title {
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 18px;
     text-align: center;
-    text-decoration: solid;
+    background-color:  rgb(214, 200, 214);
     font-weight: bold;
 }
 
-.card-text {
-    text-align: center;
+.button-enviar:hover {
+    font-weight: bold;
+    color: rgb(153, 22, 153);
 }
 
+
+
+
+.button-enviar input:focus{
+    box-shadow: 0 0 5px 5px rgb(153, 22, 153);
+}
 
 
