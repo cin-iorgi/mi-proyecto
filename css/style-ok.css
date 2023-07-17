@@ -41,9 +41,6 @@
     margin-top: 50px;
 }
 
-.cards {
-    display: flex;
-}
 
 .card {
     border-radius: 100px;
@@ -100,8 +97,6 @@
     font-size: 20px;
 }
 
-
-
 input[type=number]::-webkit-outer-spin-button { 
     -webkit-appearance: none;
     margin: 0;
@@ -124,11 +119,11 @@ input[type=number]::-webkit-outer-spin-button {
     color: rgb(153, 22, 153);
 }
 
-
-
-
-.button-enviar input:focus{
-    box-shadow: 0 0 5px 5px rgb(153, 22, 153);
+.form-select:focus {
+    box-shadow: 0 0 5px 5px rgb(214, 200, 214);
 }
-
+  
+.form-item textarea:focus {
+    box-shadow: 0 0 5px 5px rgb(214, 200, 214);
+}
 
