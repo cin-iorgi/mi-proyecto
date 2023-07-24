@@ -1,0 +1,29 @@
+.card {
+    border-radius: 50px;
+    border-color: #991699;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    .card-img-top-nosotros {
+        height: 250px;
+        padding: 30px;    
+    }
+    .card-title {
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        font-size: $font-medium;
+    }
+    .card-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-size: $font-small;
+    }
+    .btn {
+        display: flex;  
+        justify-content: center;
+        font-weight: bold;
+    }
+}

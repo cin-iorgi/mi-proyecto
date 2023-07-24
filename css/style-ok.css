@@ -1,7 +1,4 @@
 /*# sourceMappingURL=style-ok.css.map */
-* {
-  font-family: "Lato", sans-serif; }
-
 #navbarNav {
   justify-content: flex-end; }
 
@@ -9,7 +6,7 @@
   background-color: #d6c8d6;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  font-size: 19px; }
+  font-size: 18px; }
   .navbar .nav-link {
     color: black;
     margin: 20px; }
@@ -19,46 +16,15 @@
       .navbar .nav-link.nav-link:hover #navbarNav {
         justify-content: flex-end; }
 
-#header-one {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px; }
-
-.card {
-  border-radius: 80px;
-  border-color: #991699;
-  padding: 200px;
-  margin: 20px;
-  padding: 5px; }
-  .card .card-img-top {
-    height: 300px;
-    padding: 70px; }
-    .card .card-img-top .card-body {
-      display: flex; }
-      .card .card-img-top .card-body .card-title {
-        display: flex;
-        justify-content: center;
-        font-weight: bold; }
-        .card .card-img-top .card-body .card-title .card-text {
-          display: flex;
-          margin: auto;
-          text-align: center;
-          font-size: 100px; }
-
-.header-two {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px; }
-
 .form {
   font-size: 20px;
   font-weight: bolder; }
   .form .form-item {
     margin-top: 30px; }
-    .form .form-item.form-item:focus {
-      box-shadow: 0 0 5px 5px #d6c8d6; }
-    .form .form-item .form-select:focus {
-      box-shadow: 0 0 5px 5px #d6c8d6; }
+  .form.form-item:focus {
+    box-shadow: 0 0 5px 5px #d6c8d6; }
+  .form .form-select:focus {
+    box-shadow: 0 0 5px 5px #d6c8d6; }
 
 .button-enviar {
   display: flex;
@@ -74,11 +40,84 @@
     font-weight: bold;
     color: #991699; }
 
+.card {
+  border-radius: 50px;
+  border-color: #991699;
+  margin: 20px;
+  padding: 10px;
+  display: flex; }
+  .card .card-img-top-nosotros {
+    height: 250px;
+    padding: 30px; }
+  .card .card-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px; }
+  .card .card-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px; }
+  .card .btn {
+    display: flex;
+    justify-content: center;
+    font-weight: bold; }
+
+.card {
+  border-radius: 50px;
+  border-color: #991699;
+  margin: 20px;
+  padding: 10px; }
+  .card .card-img-top {
+    height: 300px;
+    padding: 70px; }
+  .card .card-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px; }
+  .card .card-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px; }
+
+/*
+
+$spacings: (
+    small: 2rem,
+    medium: 3.5rem,
+    large: 5rem
+);
+
+para usarlo dsp: 
+
+elemento {
+    padding: map-get($spacings , large)
+}
+
+*/
+* {
+  font-family: "Lato", sans-serif; }
+
+#header-one {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px; }
+
+.header-two {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px; }
+
 p {
   font-size: 18px; }
 
 h2 {
-  font-size: 28px; }
+  font-size: 20px; }
 
 h1 {
-  font-size: 35px; }
+  font-size: 30px; }
