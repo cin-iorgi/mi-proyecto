@@ -4,8 +4,7 @@
     margin: 20px;
     padding: 10px;
     .card-img-top {
-        height: 300px;
-        padding: 70px;
+        @include sizes(300px, 70px, 5px);
   }
     .card-title {
         display: flex;

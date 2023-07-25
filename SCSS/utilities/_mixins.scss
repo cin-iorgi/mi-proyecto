@@ -1,7 +1,9 @@
-@mixin flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@mixin sizes($height, $padding, $margin) {
+    height: $height;
+    padding: $padding;
+    margin: $margin;
 }
+
 
 

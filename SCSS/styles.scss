@@ -1,18 +1,19 @@
   /*# sourceMappingURL=style-ok.css.map */
 
 @import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/maps";
 @import "./layout/_nav";
 @import "./views/contact";
+@import "./views/informacion";
 @import "./layout/cards-equipo";
 @import "./layout/cards-home";
-@import "./utilities/maps";
-@import "./utilities/mixins";
+
 
 
 * {
   font-family: "Lato", sans-serif;
 }
-
 
 #header-one {
   text-align: center;
@@ -20,13 +21,11 @@
   margin-top: 50px;
 }
 
-
 .header-two {
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
 }
-
 
 p {
   font-size: $font-small;
