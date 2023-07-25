@@ -1,17 +1,8 @@
 $spacings: (
-    small: 2rem,
-    medium: 3.5rem,
-    large: 5rem,
+    small: 2px,
+    medium: 3px,
+    large: 20px,
 );
 
 
 
-/*
-
-para usarlo dsp: 
-
-elemento {
-    padding: map-get($spacings , large)
-}
-
-*/

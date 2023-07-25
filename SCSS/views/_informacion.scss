@@ -1,13 +1,12 @@
-
-/*.accordion-item {
-        padding: map-get($spacings , $large ) ;
-}
-
-
-
+.accordion {
+    .accordion-item {
+        padding: map-get($spacings , large )
+    }
+    .accordion-header {
         .accordion-button {
-    color: purple;
+            color: rgb(153, 22, 153);
+            font-size: $font-small;
+            font-weight: bold;
         }
+    }
 }
-*/ 
-

@@ -1,13 +1,4 @@
 /*# sourceMappingURL=style-ok.css.map */
-/*
-
-para usarlo dsp: 
-
-elemento {
-    padding: map-get($spacings , large)
-}
-
-*/
 #navbarNav {
   justify-content: flex-end; }
 
@@ -49,17 +40,14 @@ elemento {
     font-weight: bold;
     color: #991699; }
 
-/*.accordion-item {
-        padding: map-get($spacings , $large ) ;
-}
+.accordion .accordion-item {
+  padding: 20px; }
 
+.accordion .accordion-header .accordion-button {
+  color: #991699;
+  font-size: 18px;
+  font-weight: bold; }
 
-
-        .accordion-button {
-    color: purple;
-        }
-}
-*/
 .card {
   border-radius: 50px;
   border-color: #991699;
