@@ -61,10 +61,8 @@
   height: 100%; }
 
 .card {
-  border-radius: 50px;
+  border-radius: 2px;
   border-color: #991699;
-  margin: 20px;
-  padding: 10px;
   display: flex; }
   .card .card-img-top-nosotros {
     height: 230px;
@@ -87,10 +85,8 @@
     font-weight: bold; }
 
 .card {
-  border-radius: 50px;
-  border-color: #991699;
-  margin: 20px;
-  padding: 10px; }
+  border-radius: 2px;
+  border-color: #991699; }
   .card .card-img-top {
     height: 300px;
     padding: 70px;

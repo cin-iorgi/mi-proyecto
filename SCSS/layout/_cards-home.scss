@@ -1,8 +1,6 @@
 .card {
-    border-radius: 50px;
+    border-radius: 2px;
     border-color: #991699;
-    margin: 20px;
-    padding: 10px;
     .card-img-top {
         @include sizes(300px, 70px, 5px);
   }
