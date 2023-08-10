@@ -1,4 +1,26 @@
 /*# sourceMappingURL=style-ok.css.map */
+p {
+  font-size: 18px; }
+
+h2 {
+  font-size: 20px; }
+
+h1 {
+  font-size: 30px; }
+
+* {
+  font-family: "Lato", sans-serif; }
+
+#header-one {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px; }
+
+.header-two {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px; }
+
 #navbarNav {
   justify-content: flex-end; }
 
@@ -102,25 +124,3 @@
     text-align: center;
     align-items: center;
     font-size: 18px; }
-
-* {
-  font-family: "Lato", sans-serif; }
-
-#header-one {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px; }
-
-.header-two {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px; }
-
-p {
-  font-size: 18px; }
-
-h2 {
-  font-size: 20px; }
-
-h1 {
-  font-size: 30px; }

@@ -3,6 +3,7 @@
 @import "./utilities/variables";
 @import "./utilities/mixins";
 @import "./utilities/maps";
+@import "./views/global";
 @import "./layout/_nav";
 @import "./views/contact";
 @import "./views/informacion";
@@ -11,31 +12,6 @@
 
 
 
-* {
-  font-family: "Lato", sans-serif;
-}
 
-#header-one {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px;
-}
 
-.header-two {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 50px;
-}
-
-p {
-  font-size: $font-small;
-}
-
-h2 {
-  font-size: $font-medium;
-}
-
-h1 {
-  font-size: $font-large;
-}
 

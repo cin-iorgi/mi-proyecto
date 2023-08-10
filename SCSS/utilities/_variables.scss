@@ -2,3 +2,16 @@ $font-small: 18px;
 $font-medium: 20px;
 $font-large: 30px;
 
+p {
+    font-size: $font-small;
+}
+
+
+h2 {
+    font-size: $font-medium;
+}
+
+
+h1 {
+    font-size: $font-large;
+}
